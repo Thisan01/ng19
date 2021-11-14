@@ -10,7 +10,7 @@ if (Config.WORKTYPE == 'public') {
    
    Asiata.addcommand({ pattern: 'attppack', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
-        var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://telegra.ph/file/751bab3a465bbe2500948.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔═════════════════════╗
 ║     ▰✖🧚‍♂️ꜱʟ ᴀꜱɪᴀᴛᴀ ʙᴏᴛ🌟✖▰
