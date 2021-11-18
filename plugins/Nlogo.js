@@ -16,93 +16,97 @@ if (Config.WORKTYPE == 'public') {
         var sl = await axios.get(`https://telegra.ph/file/751bab3a465bbe2500948.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(sl.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔══════════════════════
-║✖┋┋*ASIATA LOGO PACK 1*┋┋✖
+║✖┋┋*ASIATA LOGO PACK 2*┋┋✖
 ╠══════════════════════
 ║
 ║   `+Config.CAPTION+`
 ║
-╠═➢ 🧚‍♂️Cmd: *.phub*
-╠══➢ ✔ Dec: *Send pornhub logo*
-╠═➢ 🧚‍♂️ Ex: *.phub ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.wel*
+╠══➢ ✔ Dec: *Send welcome logo*
+╠═➢ 🧚‍♂️ Ex: *.wel ASIATA*
 ║
-╠═➢ 🧚‍♂️ Cmd: *.stone*
-╠══➢ ✔ Dec: *Send stone like logo*
-╠═➢ 🧚‍♂️Ex: *.stone ASIATA*
+╠═➢ 🧚‍♂️ Cmd: *.bye*
+╠══➢ ✔ Dec: *Send bye logo*
+╠═➢ 🧚‍♂️Ex: *.bye ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.glitch*
-╠══➢ ✔ Dec: *Send glitch logo*
-╠═➢ 🧚‍♂️ Ex: *.glitch ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.marvel*
+╠══➢ ✔ Dec: *Send marve logo*
+╠═➢ 🧚‍♂️ Ex: *.marvel ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.space*
-╠══➢ ✔ Dec: *Send space logo*
-╠═➢ 🧚‍♂️Ex: *.space ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.2marvel*
+╠══➢ ✔ Dec: *Send marvel logo*
+╠═➢ 🧚‍♂️Ex: *.2marvel ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.blood*
-╠══➢ ✔ Dec: *Send blood hor logo*
-╠═➢ 🧚‍♂️Ex: *.blood ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.wolf*
+╠══➢ ✔ Dec: *Send wolf logo*
+╠═➢ 🧚‍♂️Ex: *.wolf ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.blackpink*
-╠══➢ ✔ Dec: *Send bpink logo*
-╠═➢ 🧚‍♂️Ex: *.blackpink ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.lava*
+╠══➢ ✔ Dec: *Send lava logo*
+╠═➢ 🧚‍♂️Ex: *.lava ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.wall*
-╠══➢ ✔ Dec: *Send wall art logo*
-╠═➢ 🧚‍♂️Ex: *.wall ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.xmas*
+╠══➢ ✔ Dec: *Send xmas logo*
+╠═➢ 🧚‍♂️Ex: *.xmas ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.coding*
-╠══➢✔ Dec: *Send coding logo*
-╠═➢ 🧚‍♂️ Ex: *.coding ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.round*
+╠══➢✔ Dec: *Send round logo*
+╠═➢ 🧚‍♂️ Ex: *.round { image url }*
 ║
-╠═➢ 🧚‍♂️Cmd: .*.sand1*
-╠══➢ ✔  Dec: *Send sand writting*
-╠═➢ 🧚‍♂️ Ex: *.sand1 ASIATA*
+╠═➢ 🧚‍♂️Cmd: .*.quot*
+╠══➢ ✔  Dec: *Send quote logo*
+╠═➢ 🧚‍♂️ Ex: *.quot ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.sand2*
-╠══➢ ✔ Dec: *Send sand writting*
-╠═➢ 🧚‍♂️Ex: *.sand2 ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.harta*
+╠══➢ ✔ Dec: *Send harta logo*
+╠═➢ 🧚‍♂️Ex: *.harta ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.sand3*
-╠══➢ ✔ Dec: *Send sand writting*
-╠═➢ 🧚‍♂️Ex: *.sand3 ASIATA *
+╠═➢ 🧚‍♂️Cmd: *.1917*
+╠══➢ ✔ Dec: *Send 1917 logo*
+╠═➢ 🧚‍♂️Ex: *.1917 ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.beach*
-╠══➢ ✔  Dec: *Send beach logo*
-╠═➢ 🧚‍♂️Ex: *.beach ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.minion*
+╠══➢ ✔ Dec: *Send minion logo*
+╠═➢ 🧚‍♂️Ex: *.minion ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.gradient*
-╠══➢ ✔  Dec: *Send logo*
-╠═➢ 🧚‍♂️ Ex: *.gradient ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.holo*
+╠══➢ ✔  Dec: *Send holo logo*
+╠═➢ 🧚‍♂️ Ex: *.holo ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.luxury*
-╠══➢ ✔  Dec: *Send luxury logo*
-╠═➢ 🧚‍♂️ Ex: *.luxury ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.metalp*
+╠══➢ ✔  Dec: *Send metalp logo*
+╠═➢ 🧚‍♂️ Ex: *.metalp ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.sky*
-╠══➢ ✔  Dec: *Send sky logo*
-╠═➢ 🧚‍♂️ Ex: *.sky ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.avengers*
+╠══➢ ✔  Dec: *Send avengers logo*
+╠═➢ 🧚‍♂️ Ex: *.avengers ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.winter*
-╠══➢ ✔  Dec: *Send winter logo*
-╠═➢ 🧚‍♂️ Ex: *.winter ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.halloween*
+╠══➢ ✔  Dec: *Send halloween logo*
+╠═➢ 🧚‍♂️ Ex: *.halloween ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.christmas*
-╠══➢ ✔  Dec: *Send xmas logo*
-╠═➢ 🧚‍♂️ Ex: *.christmas ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.horror*
+╠══➢ ✔  Dec: *Send horror logo*
+╠═➢ 🧚‍♂️ Ex: *.horror ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.neon*
-╠══➢ ✔  Dec: *Send neon logo*
-╠═➢ 🧚‍♂️ Ex: *.neon ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.glossyc*
+╠══➢ ✔  Dec: *Send glossy logo*
+╠═➢ 🧚‍♂️ Ex: *.glossyc ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.king*
-╠══➢ ✔  Dec: *Send king logo*
-╠═➢ 🧚‍♂️ Ex: *.king ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.deluxe*
+╠══➢ ✔  Dec: *Send deluxe logo*
+╠═➢ 🧚‍♂️ Ex: *.deluxe ASIATA*
 ║
-╠═➢ 🧚‍♂️Cmd: *.glue*
-╠══➢ ✔  Dec: *Send Glue logo*
-╠═➢ 🧚‍♂️ Ex: *.glue ASIATA*
+╠═➢ 🧚‍♂️Cmd: *.glossyb*
+╠══➢ ✔  Dec: *Send glossy logo*
+╠═➢ 🧚‍♂️ Ex: *.glossyb ASIATA *
 ║
-║    ☬s̑̈t̑̈ȃ̈y̑̈ s̑̈ȃ̈f̑̈ȇ̈t̑̈y̑̈ ȃ̈t̑̈ h̑̈ȏ̈m̑̈ȇ̈🧚‍♂️
-╚══════════════════════`,quoted: message.data})
+╠═➢ 🧚‍♂️Cmd: *.joker*
+╠══➢ ✔  Dec: *Send joker logo*
+╠═➢ 🧚‍♂️ Ex: *.joker ASIATA*
+║
+║     ☬s̑̈t̑̈ȃ̈y̑̈ s̑̈ȃ̈f̑̈ȇ̈t̑̈y̑̈ ȃ̈t̑̈ h̑̈ȏ̈m̑̈ȇ̈🧚‍♂️
+╚══════════════════════     `,quoted: message.data})
 
     }));
 
