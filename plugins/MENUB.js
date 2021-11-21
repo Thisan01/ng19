@@ -34,8 +34,7 @@ Asiata.addcommand({on: 'text', fromMe: false,  deleteCommand: false}, (async (me
 
     var language = ''
 
-o are memes.°
-*🧚‍♂️ Command:* °.movie°if (hrs < 12) wish = '*𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙽𝙶⛅*'
+if (hrs < 12) wish = '*𝙶𝙾𝙾𝙳 𝙼𝙾𝚁𝙽𝙸𝙽𝙶⛅*'
 if (hrs >= 12 && hrs <= 17) wish = '*𝙶𝙾𝙾𝙳 𝙰𝙵𝚃𝙴𝚁𝙽𝙾𝙾𝙽🌞*'
 if (hrs >= 17 && hrs <= 19) wish = '*𝙶𝙾𝙾𝙳 𝙴𝚅𝙴𝙽𝙸𝙽𝙶🌅*'
 if (hrs >= 19 && hrs <= 24) wish = '*𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝙷𝚃🌟*'
