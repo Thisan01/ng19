@@ -73,6 +73,18 @@ if (hrs >= 19 && hrs <= 24) wish = '*𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝙷𝚃🌟*'
  │
  ╰────────────────
  ╭────────────────
+ │       ☚➶Uploder➶☛
+ │
+ │▷ .uploadp [ reply a photo ]
+ │▷ .uploadv [ reply a video ]
+ │
+ │Upload Your photo or video
+ │to Telegraph & Give you link
+ │ 
+ │warn : you can upload less than 
+ │       5mb source
+ ╰────────────────
+ ╭────────────────
  │ ☚➶Text To Img➶☛
  │
  │▷ .rlpack
@@ -351,9 +363,9 @@ Example : .covid Sri Lanka°
 *➢ Description:* °Applies the selected TBlend effect to videos.°
 *🧚‍♂️ Command:* °.carbon°
 *➢ Description:* °Convert text into Carbon effect°
-*🧚‍♂️ Command:* °.tgm°
+*🧚‍♂️ Command:* °.agm°
 *➢ Description:* °it sends good morning text message°
-*🧚‍♂️ Command:* °.tgn°
+*🧚‍♂️ Command:* °.agn°
 *➢ Description:* °it sends good night text message°
 *🧚‍♂️ Command:* °.ttp°
 *➢ Description:* °Make text image°
@@ -855,6 +867,18 @@ if (hrs >= 19 && hrs <= 24) wish = '*𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝙷𝚃🌟*'
  │
  ╰────────────────
  ╭────────────────
+ │       ☚➶Uploder➶☛
+ │
+ │▷ .uploadp [ reply a photo ]
+ │▷ .uploadv [ reply a video ]
+ │
+ │Upload Your photo or video
+ │to Telegraph & Give you link
+ │ 
+ │warn : you can upload less than 
+ │       5mb source
+ ╰────────────────
+ ╭────────────────
  │ ☚➶Text To Img➶☛
  │
  │▷ .rlpack
@@ -1132,9 +1156,9 @@ Example : .covid Sri Lanka°
 *➢ Description:* °Applies the selected TBlend effect to videos.°
 *🧚‍♂️ Command:* °.carbon°
 *➢ Description:* °Convert text into Carbon effect°
-*🧚‍♂️ Command:* °.tgm°
+*🧚‍♂️ Command:* °.agm°
 *➢ Description:* °it sends good morning text message°
-*🧚‍♂️ Command:* °.tgn°
+*🧚‍♂️ Command:* °.agn°
 *➢ Description:* °it sends good night text message°
 *🧚‍♂️ Command:* °.ttp°
 *➢ Description:* °Make text image°
@@ -1648,6 +1672,18 @@ if (hrs >= 19 && hrs <= 24) wish = '*𝙶𝙾𝙾𝙳 𝙽𝙸𝙶𝙷𝚃🌟*'
  │
  ╰────────────────
  ╭────────────────
+ │       ☚➶Uploder➶☛
+ │
+ │▷ .uploadp [ reply a photo ]
+ │▷ .uploadv [ reply a video ]
+ │
+ │Upload Your photo or video
+ │to Telegraph & Give you link
+ │ 
+ │warn : you can upload less than 
+ │       5mb source
+ ╰────────────────
+ ╭────────────────
  │ ☚➶Text To Img➶☛
  │
  │▷ .rlpack
@@ -1925,9 +1961,9 @@ Example : .covid Sri Lanka°
 *➢ Description:* °Applies the selected TBlend effect to videos.°
 *🧚‍♂️ Command:* °.carbon°
 *➢ Description:* °Convert text into Carbon effect°
-*🧚‍♂️ Command:* °.tgm°
+*🧚‍♂️ Command:* °.agm°
 *➢ Description:* °it sends good morning text message°
-*🧚‍♂️ Command:* °.tgn°
+*🧚‍♂️ Command:* °.agn°
 *➢ Description:* °it sends good night text message°
 *🧚‍♂️ Command:* °.ttp°
 *➢ Description:* °Make text image°
