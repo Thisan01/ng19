@@ -28,8 +28,38 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
         var geturl = await uploadByBuffer(fs.readFileSync('Asiata.mp4' ), 'video/mp4')
         
-        await message.client.sendMessage(message.jid,'YOUR VIDEO TELEGRAPH LINK IS ❤\n\n'+ geturl.link , MessageType.text)
+        await message.client.sendMessage(message.jid,'YOUR VIDEO TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text)
         });
         
 
 }));
+
+
+
+if (Config.WORKTYPE == 'public') {
+
+Asiata.addcommand({pattern: 'uploadv ?(.*)', fromMe: false,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
+
+    if (!message.reply_message) return await message.client.sendMessage(message.jid, 'මෙගාබයිට් පහට අඩු වීඩියෝ එකකට මෙන්ශන් කරන්න ( Mention Video Less than 5mb ) 🌠✴❤', MessageType.text);
+
+var location = await message.client.downloadAndSaveMediaMessage({
+        key: {
+            remoteJid: message.reply_message.jid,
+            id: message.reply_message.id
+        },
+        message: message.reply_message.data.quotedMessage
+    });
+
+    ffmpeg(location)
+        .save('Asiata.mp4')
+        .on('end', async () => {
+        
+        var geturl = await uploadByBuffer(fs.readFileSync('Asiata.mp4' ), 'video/mp4')
+        
+        await message.client.sendMessage(message.jid,'YOUR VIDEO TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text)
+        });
+        
+
+}));
+
+}
