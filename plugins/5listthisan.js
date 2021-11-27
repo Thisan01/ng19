@@ -8,7 +8,7 @@ const cwebp = require('cwebp-bin');
 const Config = require('../config');
 const need ="*වචනයක් අවශ්‍යයි 😭*"
              
- Asiata.addrex({pattern: '5btn ?(.*)', fromMe: true, dontAdCommandList: true}, (async (message, match) => {
+ Asiata.addcommand({pattern: '5btn ?(.*)', fromMe: true, dontAdCommandList: true}, (async (message, match) => {
       if (match[1] === '') return await message.client.sendMessage(message.jid,need);
       var topText, bottomText, tl, t2, t3 ,t4,t5,t6,t7,t8,t9;
       if (match[1].includes('/')) {
