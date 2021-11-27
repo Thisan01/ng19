@@ -87,7 +87,7 @@ async function ASIATA () {
 
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await TrexDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await AsiataDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
