@@ -461,4 +461,4 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
     }
 }
 
-Asiata();
+ASIATA();
