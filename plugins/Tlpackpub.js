@@ -271,7 +271,7 @@ if (Config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.sendMessage(need);
 
         var sl = await axios.
-        get(`https://pencarikode.xyz/api/textpro/avengers-logo?text=T-Rex&text2=${encodeURIComponent(match[1])}&apikey=pais`, { responseType: 'arraybuffer' })
+        get(`https://pencarikode.xyz/api/textpro/avengers-logo?text=Asiata&text2=${encodeURIComponent(match[1])}&apikey=pais`, { responseType: 'arraybuffer' })
         await message.sendMessage(Buffer.from(sl.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ▰✖🧚‍♂️ꜱʟ ᴀꜱɪᴀᴛᴀ ʙᴏᴛ🌟✖▰ ',quoted: message.data})
 
     }));
