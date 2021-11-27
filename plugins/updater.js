@@ -30,7 +30,7 @@ Asiata.addcommand({pattern: 'up$', fromMe: true, desc: Lang.UPDATER_DESC}, (asyn
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '☬► [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁◁Hiruwa▷▷\n';
+                degisiklikler += '☬► [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁◁Thisan▷▷\n';
             }
         );
         
@@ -122,7 +122,7 @@ Asiata.addcommand({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: L
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '☬ ► [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' \n <' + "Hiruwa" + '>\n\n';
+                degisiklikler += '☬ ► [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' \n <' + "Thisan" + '>\n\n';
             }
         );
         
