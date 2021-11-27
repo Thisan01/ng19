@@ -5,7 +5,7 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
-const Lang = Language.getString('_trex');
+const Lang = Language.getString('_asiata');
 const fs = require("fs")
 const asiata = fs.readFileSync('./Voice/gm.mp3')  
 const fuck = fs.readFileSync('./Voice/gn.mp3') 
