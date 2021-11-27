@@ -7,7 +7,7 @@ const Config = require('../config');
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
-const Lang = Language.getString('_trex');
+const Lang = Language.getString('_asiata');
 const fs = require("fs")
 const kawa = fs.readFileSync('./Voice/kawa.mp3')
 
