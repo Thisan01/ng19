@@ -57,7 +57,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function ASIATA () {
+async function Asiata () {
     await config.DATABASE.sync();
     var StrSes_Db = await AsiataDB.findAll({
         where: {
@@ -461,4 +461,4 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
     }
 }
 
-ASIATA();
+Asiata();
