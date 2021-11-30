@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 Thisan01
+/* Copyright (C) 2021 Asiata
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Thisan-Asiata
+Asiata-Thisan
 */
 
 const fs = require("fs");
@@ -82,7 +82,7 @@ async function Asiata () {
 
     conn.on ('credentials-updated', async () => {
         console.log(
-            chalk.blueBright.italic('▷ Login information updated!❤')
+            chalk.blueBright.italic('▷ Login information updated!👿')
         );
 
         const authInfo = conn.base64EncodedAuthInfo();
@@ -94,15 +94,15 @@ async function Asiata () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('🧚‍♂️ SL')}${chalk.blue.bold('ASIATA')}
+        console.log(`${chalk.green.bold('👿 SL-')}${chalk.blue.bold('ASIATA')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
+${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
     });
     
 
     conn.on('open', async () => {
         console.log(
-            chalk.green.bold('🧚‍♂️  Login successful!▶')
+            chalk.green.bold('👿  Login successful!▶')
         );
 
         console.log(
@@ -122,7 +122,7 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('😇Installing plugins...')
+            chalk.blueBright.italic('🤖Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -132,17 +132,17 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
         });
 // ════════════════════PLUGGINS SUCCESS🧚‍♂️🧚‍♂️🧚‍♂️
         console.log(
-            chalk.green.bold('☬ ASIATA V 1.0.0 PUBLIC WORKING!🎲')
+            chalk.green.bold('👿 ASIATA V 1.0.0 PUBLIC WORKING!▷')
        );
         
          if (config.LANG == 'EN') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🎀💫 Hey..!!  ${conn.user.name}! \n\n*😁 Welcome To ASIATA :│🤓*\n\n\n Your Bot Working  As ${config.WORKTYPE} ⚓.\n\n*⚓│ASIATA WORKING Your Account*\n\n*❤ Use the .asiata command to get bot menu...*\n\n\n*🎲 ASIATA is a powerfull WhatsApp robot developed by Thisan.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n🧚‍♂️ .new Command use for new items*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁▷ Hey..!!  ${conn.user.name}! \n\n*👿 Welcome To ASIATA :│🍁*\n\n\n Your Bot Working  As ${config.WORKTYPE} 👿.\n\n*👿│ASIATA WORKING Your Account*\n\n*🍁▷ Use the 🚀.asiata command to get bot menu...*\n\n\n*👿 ASIATA is a powerfull WhatsApp robot developed by Thisan.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n👿 .new Command use for new items*\n\n`});
              
          } else if (config.LANG == 'SI') {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🎀💫Hey..!!  ${conn.user.name}! \n\n*😁 සාදරයෙන් ASIATA වෙත පිලිගන්නවා :│🤓*\n\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n\n*⚓│ASIATA ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n\n*❤ ASIATA bot සම්පූර්න මෙනුව ලබා ගැනීමට 🎲.asiata විධානය භාවිතා කරන්න...*\n\n\n*🧚‍♂️ ASIATA යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..ASIATA වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට🧚‍♂️ .new විධානය භාවිතා කරන්න..*\n\n*☛ මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \n\n*👿 සාදරයෙන් ASIATA වෙත පිලිගන්නවා :│🍁*\n\n\n ඔබේ Bot ${config.WORKTYPE} ලෙස ක්‍රියාකරයි.\n\n*👿│ASIATA ඔබගේ ගිණුමේ දැන් සක්‍රියයි*\n\n*🍁 ASIATA bot සම්පූර්න මෙනුව ලබා ගැනීමට 👿.asiata විධානය භාවිතා කරන්න...*\n\n\n*👿 ASIATA යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි..Asiata වෙත ලැබෙන නව අංග හා යතාවත්කාලින කිරිම් ලබා ගැනීමට🍁 .new විධානය භාවිතා කරන්න..*\n\n*😈 මෙය ඔබගේ LOG අංකයයි.මෙහි විධාන භාවිතයෙන් වළකින්න.*\n\n`});
              
          } else {
-             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🎀💫Hey..!!  ${conn.user.name}! \\nn*😁 Welcome To ASIATA :│🤓*\n\n\n Your Bot Working  As ${config.WORKTYPE} ⚓.\n\n*⚓ │ASIATA WORKING Your Account*\n\n*❤ Use the .asiata command to get bot menu...*\n\n\n*🎲 ASIATA is a powerfull WhatsApp robot developed by Thisan.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n🧚‍♂️ .new Command use for new items*\n\n`});
+             await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: `🍁🚀Hey..!!  ${conn.user.name}! \\nn*👿 Welcome To T-REX :│🍁*\n\n\n Your Bot Working  As ${config.WORKTYPE} 👿.\n\n*👿 │T-REX WORKING Your Account*\n\n*🍁▷ Use the 🚀.trex command to get bot menu...*\n\n\n*👿 T-REX is a powerfull WhatsApp robot developed by Hiruwa.*\n\n*🚀 This is your LOG number. Avoid using the command here.\n\n👿 .new Command use for new items*\n\n`});
         }
      });
     
@@ -153,126 +153,126 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { 
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { 
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('91')) { 
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { 
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) {  
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { 
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { 
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) {  
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) {  
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY ✖☬ASIATA BOT☬✖'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\nPOWERD BY 🎀ASIATA BOT❤'
                 await conn.setStatus(biography)
             }
         }
@@ -284,9 +284,9 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
          
         while (getGMTh == 19 && getGMTm == 1) {
             var announce = ''
-            if (config.LANG == 'EN') announce = '📢◉◉ \n🧚‍♂️Announcement SYSTEM 🔘'
-            if (config.LANG == 'SI') announce = '📢◉◉ \n🧚‍♂️නිවේදන පද්ධතිය 🔘'
-            if (config.LANG == 'ID') announce = '📢◉◉ \n🧚‍♂️Announcement System 🔘'
+            if (config.LANG == 'EN') announce = '📢◉◉ \n👾Announcement SYSTEM 🔘'
+            if (config.LANG == 'SI') announce = '📢◉◉ \n👾නිවේදන පද්ධතිය 🔘'
+            if (config.LANG == 'ID') announce = '📢◉◉ \n👾Announcement System 🔘'
             
             let video = 'https://youtu.be/8Ne0kAK2dbM'
             let image = 'https://telegra.ph/file/751bab3a465bbe2500948.jpg'
@@ -431,13 +431,13 @@ ${chalk.blue.italic('🧚‍♂️ Connecting to WhatsApp...▶')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'EN') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*✖☬ASIATA BOT☬✖*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🎀Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 ASIATA BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*Error:* ```' + error + '```\n\n' });
                                 
                             } else if (config.LANG == 'SI') {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*✖☬ASIATA BOT☬✖* '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_🎀Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*දෝෂය:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 ASIATA BOT 👿*  '+config.WORKTYPE+' ලෙස ක්‍රියා කරයි!!\n\n▷ _මෙය ඔබගේ LOG අංකයයි මෙහි විධන භාවිතයෙන් වළකින්න_\n▷ඔබට යම් ගැටලුවක් ඇත්නම් අපගේ සහය සමූහට ලිවිය හැක.\nf_👿Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*දෝෂය:* ```' + error + '```\n\n' });
                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*✖☬ASIATA BOT☬✖*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_🎀Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/IMG-20210910-WA0097.png"), MessageType.image, { caption: '*👿 ASIATA BOT 👿*  WORKING AS '+config.WORKTYPE+'!!\n\n▷ _This is your LOG number Dont Try Command here_\n▷Also You Can join Our Support group More Help.\n_👿Support 01▷ https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb\n\n*Error:* ```' + error + '```\n\n' });
                             }
                         }
                     }
