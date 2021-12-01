@@ -15,6 +15,8 @@ Asiata.addcommand({pattern: 'uploadp ?(.*)', fromMe: true,  deleteCommand: true,
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
 
+await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
+
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -31,7 +33,7 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
         var geturl = await uploadByBuffer(fs.readFileSync('Asiata.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text)
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
@@ -45,6 +47,8 @@ if (Config.WORKTYPE == 'public') {
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
 
+await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
+
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -61,7 +65,7 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
         var geturl = await uploadByBuffer(fs.readFileSync('Asiata.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text)
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🧚‍♂️\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
